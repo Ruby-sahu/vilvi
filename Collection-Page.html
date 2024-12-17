@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Vilvi ::</title>
+    <!-- Fevicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/vlogo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+</head>
+
+<body>
+     <!-- header  -->
+    <header class="header">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div class="logo">
+                    <a href=""><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="header-right d-flex align-items-center">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            ...
+                        </div>
+                    </div>
+
+                    <div class="user-auth">
+                        <a href="" class="btn btn-connect-wallet">SIGNUP / WALLET CONNECT</a>
+                        <a href="" class="btn btn-wallet"><svg data-name="Group 23" xmlns="http://www.w3.org/2000/svg"
+                                width="28.81" height="24.898">
+                                <path data-name="Path 16"
+                                    d="M25.37 24.898H2.15a5.647 5.647 0 0 1-.66-.206A2.229 2.229 0 0 1 0 22.575V8.905a2.486 2.486 0 0 1 2.36-2.1c.73-.06 1.46-.02 2.19-.033a1.41 1.41 0 0 0 .66-.153q5.04-2.548 10.1-5.083c.91-.445 1.79-.942 2.73-1.334a2.8 2.8 0 0 1 1.89-.066 2.677 2.677 0 0 1 1.53 1.161c1.15 1.759 2.32 3.51 3.48 5.269a.647.647 0 0 0 .48.292 2.416 2.416 0 0 1 2.06 1.851 11.624 11.624 0 0 1 .05 1.865c.01.564-.25.783-.9.783h-4.02a9.675 9.675 0 0 0-.98.04 4.955 4.955 0 0 0-4.48 3.657 4.365 4.365 0 0 0 2.75 4.787 6.878 6.878 0 0 0 2.77.5c1.35.007 2.69 0 4.05 0 .54 0 .8.226.8.7q.015.776 0 1.553a2.008 2.008 0 0 1-.28 1.029 2.725 2.725 0 0 1-1.87 1.275ZM7.78 6.715a.079.079 0 0 0 .01.046H10a.569.569 0 0 0 .26-.08q4.815-2.429 9.64-4.844c.21-.106.21-.192.05-.332a1.456 1.456 0 0 0-1.63-.106q-5.16 2.6-10.34 5.2a1.648 1.648 0 0 0-.2.116Zm10.31.013a.824.824 0 0 0 .11.04c1.68 0 3.37 0 5.05.007.23 0 .19-.086.11-.206-.36-.544-.73-1.088-1.08-1.646-.12-.179-.22-.2-.42-.093-1 .518-2.02 1.022-3.02 1.526-.24.12-.48.24-.75.372Z"
+                                    fill="#fff" />
+                                <path data-name="Path 17"
+                                    d="M28.81 17.903a2.124 2.124 0 0 1-2.29 1.38c-1.39-.027-2.78 0-4.18-.007a3.842 3.842 0 0 1-3.98-2.867 3.5 3.5 0 0 1 3.16-3.915 5.359 5.359 0 0 1 .79-.053c1.38 0 2.77.027 4.15-.007a2.166 2.166 0 0 1 2.35 1.34Zm-5.3-2.057a1.164 1.164 0 0 0-1.26-1.088 1.177 1.177 0 0 0-1.25 1.1 1.189 1.189 0 0 0 1.27 1.095 1.171 1.171 0 0 0 1.24-1.102Z"
+                                    fill="#fff" /></svg>
+                            WALLET</a>
+                    </div>
+
+                    <button class="bg-transparent btn-toggle" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <span class="mobile-nav">
+                            <span class="bar1"></span>
+                            <span class="bar2"></span>
+                            <span class="bar3"></span>
+                        </span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header  -->
+    <main class="main">
+    <section class="banner-layer ringersGlow">
+        <div class="container banner-layerContainer">
+            <div class="row banner-layerRow">
+                <div class="col-md-12 banner-layerCol">
+                    <div class="banner-itemlayer">
+                        <div class="banner-itemImage">
+                            <img src="images/banner-item.png" alt="">
+                        </div>
+                        <div class="banner-pic">
+                            <img src="images/daviditem.png" alt="">
+                        </div>
+                        <div class="user-profileBanner">
+                            <div class="socialMedia">
+                                <div class="social-icons banner-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20.872"
+                                                    height="18.172" viewBox="0 0 20.872 18.172">
+                                                    <g id="XMLID_496_" transform="translate(0 -19.401)">
+                                                        <path id="XMLID_497_"
+                                                            d="M.369,28.114l4.809,1.795L7.04,35.9a.566.566,0,0,0,.9.271l2.681-2.185a.8.8,0,0,1,.975-.027l4.835,3.51a.567.567,0,0,0,.888-.343L20.86,20.084a.567.567,0,0,0-.759-.644L.363,27.054A.567.567,0,0,0,.369,28.114Zm6.371.839,9.4-5.789a.164.164,0,0,1,.2.259L8.579,30.634a1.608,1.608,0,0,0-.5.962l-.264,1.958a.243.243,0,0,1-.474.034L6.326,30.018A.946.946,0,0,1,6.74,28.954Z"
+                                                            transform="translate(0 0)" fill="#fff"></path>
+                                                    </g>
+                                                </svg>
+                                            </a></li>
+                                        <li><a href="#"><i class="fa-solid fa-share-nodes"></i></a></li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="colletion-title createdbyGlow">
+        <div class="container colletion-titleCont">
+
+
+            <div class="row colletion-titleRow">
+                <div class="col-md-12 colletion-titleCol">
+                    <div class="title-collection">
+                        <div class="ringerby">
+                            <h3>Ringers by <span>Dmitri Cherniak</span></h3>
+                        </div>
+                        <div class="titleItemdetails">
+                            <p>There are many variations of passages of Lorem Ipsum available, but
+                                the majority have suffered alteration in some form, by injected</p>
+                        </div>
+                    </div>
+                    <div class="line-detailsblock">
+                        <div class="line-detailElements">
+                            <div class="line-detailblockinner boxfirst">
+                                <div class="line-itemlayer">
+                                    <h3>Items</h3>
+                                    <p>10.0K</p>
+                                </div>
+                            </div>
+                            <div class="line-detailblockinner boxsecond">
+                                <div class="line-itemlayer">
+                                    <h3>Floor Price</h3>
+                                    <p>0,006</p>
+                                </div>
+                            </div>
+                            <div class="line-detailblockinner boxthird">
+                                <div class="line-itemlayer">
+                                    <h3>Launch</h3>
+                                    <p>07 Sept 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="item-detailsblock">
+        <div class="container">
+            <div class=" multiple-drops">
+
+                <div class="dropDowninner_block">
+                    <select>
+                        <option>Price</option>
+                        <option>Price</option>
+                        <option>Price</option>
+                    </select>
+                </div>
+
+
+                <div class="dropDowninner_block">
+                    <select>
+                        <option>Newest</option>
+                        <option>Newest</option>
+                        <option>Newest</option>
+                    </select>
+                    <!-- </div> -->
+                </div>
+
+                <div class="dropDowninner_block">
+                    <select>
+                        <option>All items</option>
+                        <option>All items</option>
+                        <option>All items</option>
+                    </select>
+                </div>
+
+                <div class="dropDowninner_block">
+                    <select>
+                        <option>Currency</option>
+                        <option>Currency</option>
+                        <option>Currency</option>
+                    </select>
+                </div>
+                <div class="dashboard">
+                    <div class="dashboard-icon">
+                        <a href="#"><img src="images/fours-dots.png" alt=""></a>
+                    </div>
+                    <div class="dashboard-iconInner">
+                        <a href="#"><img src="images/menu.png" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="item-price-blockouter">
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-heart-filled.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-price-block">
+                            <div class="item-priceblockinner">
+                                <div class="item-blockimage">
+                                    <img src="images/a-statue.jpg" alt="items-image">
+                                </div>
+                                <div class="priceBlock-content">
+                                    <div class="cryptoshark">
+                                        <p>Cryptosharks</p>
+                                        <div class="likes-count">
+                                            <div class="heart-icon">
+                                                <a href=""><img src="images/icon-empty-heart.png" alt=""></a>
+                                            </div>
+                                            <div class="count">
+                                                <p>56</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="crypto">
+                                        <p>Cryptosharks #4939</p>
+                                    </div>
+                                    <div class="bide-priceBuy">
+                                        <div class="bid-price">
+                                            <p>Price</p>
+                                            <div class="actual-price">
+                                                <img src="images/Layer_1-2.png" alt="">
+                                                <p>0, 006</p>
+                                            </div>
+                                        </div>
+                                        <div class="buy-bidBtn">
+                                            <a href="#">BUY BID</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer_menu row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="footer-logo">
+                        <a href="#"><img src="images/logo.png" alt=""></a>
+                        <p>Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry. Lorem Ipsum 
+                            has been the industry's standard dummy text 
+                            ever since the 1500s,</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 menu">
+                            <div class="about">
+                                <h4>Site Menu</h4>
+                                <ul class="inner_menu">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">The team</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 menu">
+                            <div class="about">
+                                <h4>Invest</h4>
+                                <ul class="inner_menu">
+                                    <li><a href="#">Roadmap</a></li>
+                                    <li><a href="#">Tokenomics</a></li>
+                                    <li><a href="#">White paper</a></li>
+                                    <li><a href="#">Contribute</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 menu">
+                            <div class="about">
+                                <h4>My account</h4>
+                                <ul class="inner_menu">
+                                    <li><a href="#">Profile</a></li>
+                                    <li><a href="#">Favorites</a></li>
+                                    <li><a href="#">My collection</a></li>
+                                    <li><a href="#">Setting</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                             
+            </div>
+            <div class="community">
+                <h4>Join the Community</h4>
+                <div class="socialMedia">
+                    <div class="social-icons  footer-socialIcons">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20.872" height="18.172" viewBox="0 0 20.872 18.172">
+                                        <g id="XMLID_496_" transform="translate(0 -19.401)">
+                                            <path id="XMLID_497_" d="M.369,28.114l4.809,1.795L7.04,35.9a.566.566,0,0,0,.9.271l2.681-2.185a.8.8,0,0,1,.975-.027l4.835,3.51a.567.567,0,0,0,.888-.343L20.86,20.084a.567.567,0,0,0-.759-.644L.363,27.054A.567.567,0,0,0,.369,28.114Zm6.371.839,9.4-5.789a.164.164,0,0,1,.2.259L8.579,30.634a1.608,1.608,0,0,0-.5.962l-.264,1.958a.243.243,0,0,1-.474.034L6.326,30.018A.946.946,0,0,1,6.74,28.954Z" transform="translate(0 0)" fill="#fff"></path>
+                                        </g>
+                                    </svg>
+                                </a></li>
+                            <li><a href="#"><i class="fa-solid fa-share-nodes"></i></a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </footer>
+    <!-- footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/popper.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

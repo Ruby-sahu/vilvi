@@ -1,0 +1,50 @@
+body.dark-theme{ background-color: #0a1e41; color: #CDD9F2;}
+.dark-theme .header-logo a{ background: #fff;}
+.dark-theme .app-sidebar,
+.dark-theme .header-logo { background: #0f2b5b;}
+.dark-theme .theme-setting {border-top: 2px solid #061f48;border-bottom: 2px solid #061f48;}
+.dark-theme .app-sidebar p{ color: #CDD9F2;}
+.dark-theme .app-sidebar .form-switch label{ color: #fff;}
+.dark-theme .app-sidebar .form-switch label svg path{ fill: #fff;}
+
+.dark-theme .app-sidebar .list-unstyled li img {-webkit-filter: invert(9);filter: invert(9);opacity: 0.5;}
+.dark-theme .app-sidebar .list-unstyled li.active img {-webkit-filter: invert(9);filter: invert(9) brightness(24.5);opacity: 1;}
+.dark-theme .app-sidebar .list-unstyled li.active a{ color: #fff;}
+.dark-theme .app-sidebar .list-unstyled li a{ color: #CDD9F2;}
+.dark-theme .app-sidebar .list-unstyled li a:hover{ color: #fff;}
+
+.dark-theme .app-sidebar .btn.btn-outline-primary { color: #CDD9F2;}
+
+.dark-theme .page-header h2 {color: #fff;}
+.dark-theme .card-block {background: #0f2b5b;}
+.dark-theme .lead-text-card{ color: #fff;}
+.dark-theme .card-white-block .bg-white, 
+.dark-theme .card-white-block .card-body{ background-color: #0f2b5b!important;}
+.dark-theme .card-white-block .card-title, 
+.dark-theme .card-white-block .card-header h2{ color: #fff;}
+.dark-theme .content-end h3{ color: #fff;}
+
+.dark-theme .article-filters a { color: #CDD9F2;}
+.dark-theme .navbar-full { border-bottom: 2px solid #061f48;}
+.dark-theme .dashboard-header.sticky{ background: #0a1e41;}
+
+.dark-theme .ic-avatar { background: #0a1e41; border: 1px solid #546a93;}
+.dark-theme .user-name {color: #CDD9F2;}
+.dark-theme .header-block h3{ color: #fff;}
+.dark-theme .detail-list-item span { color: #fff;}
+.dark-theme .transection-info span {color: #fff;}
+
+.dark-theme .detail-list-item { background: rgba(0, 0, 0, 22%);}
+
+.dark-theme .filed label {color: #CDD9F2;}
+.dark-theme .filed-control .form-control:focus{ border: 1px solid #DDDDDD;}
+.dark-theme .btn.btn-form { color: #fff;}
+
+.dark-theme .filed-control .form-control {color: #737d91;border: 1px solid rgba(221, 221, 221, 32%);}
+.dark-theme .card-label { color: #CDD9F2;}
+.dark-theme .ac-overview-card-item { background: #0a1e41;}
+
+
+.dark-theme .table-goldcoin th { color: #fff;}
+.dark-theme .table-goldcoin>tbody>tr>td {color: #fff;}
+

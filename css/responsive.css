@@ -1,0 +1,771 @@
+@media screen and (max-width: 1480px) and (min-width: 1200px){
+    .container {
+        max-width: 1100px;
+    }
+    }
+
+@media screen and (max-width: 1366px) {
+    .faq-tab .nav-pills .nav-link::after {
+        width: 150px;
+    }
+    .marketplace-head h1 {
+        font-size: 75px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .place-bidBtn .place-bid {
+        padding: 14px;
+    }
+
+    .buy-nowBtn .buy-now {
+        padding: 14px;
+    }
+
+    .history-tab ul li {
+        max-width: 50%;
+        width: 100%;
+    }
+
+    .marketplace-head h1 {
+        font-size: 65px;
+    }
+
+    .marketplace-head p {
+        margin-top: 32px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .browse {
+        margin-top: 50px;
+    }
+    .back-homeBtn .back-home {
+        padding: 15px 70px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .price {
+        padding: 20px;
+    }
+
+    .price-detail p {
+        font-size: 20px;
+    }
+
+    .profile-block {
+        margin: 25px 0;
+        max-width: 100%;
+    }
+
+    .profile-head p {
+        font-size: 22px;
+    }
+
+    .ringerby h3 {
+        font-size: 25px;
+    }
+
+    .btn-block {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .ringersBy-section {
+        padding: 50px 0;
+    }
+
+    .bid-tab {
+        padding: 5px 10px;
+    }
+
+    .history-listing {
+        padding: 15px;
+    }
+
+    .profile-content h4 {
+        font-size: 18px;
+    }
+
+    .profile-content p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .history-bid ul {
+        padding-right: 10px;
+    }
+
+    .history-tab .nav-tabs .nav-link {
+        font-size: 18px;
+    }
+
+    .created-detail {
+        padding-top: 30px;
+        max-width: 100%;
+    }
+
+    .audio {
+        padding-top: 50px;
+    }
+
+    .created-detail p {
+        font-size: 16px;
+    }
+
+    /***** Error page *****/
+    .error-content h6 {
+        font-size: 35px;
+    }
+
+    .error-msg p {
+        font-size: 20px;
+    }
+
+    .back-homeBtn .back-home {
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+
+    .back-homeBtn {
+        margin-top: 50px;
+    }
+
+    /**** Footer ****/
+    .footer-logo p {
+        margin: 20px 0;
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .about ul {
+        margin-top: 15px;
+    }
+
+    .about ul li a {
+        font-size: 16px;
+    }
+
+    .about h4 {
+        font-size: 20px;
+    }
+
+    .community {
+        margin-top: 25px;
+    }
+    .marketplace-head h1 {
+        font-size: 55px;
+    }
+   
+}
+
+@media screen and (max-width: 767px) {
+    .headImg img {
+        width: 100%;
+    }
+
+    .social-icons ul {
+        margin-bottom: 20px;
+    }
+
+    .ringerby h3 {
+        font-size: 24px;
+    }
+
+    .profile-block {
+        margin: 20px 0;
+        gap: 20px;
+    }
+
+    .profile-head p {
+        font-size: 18px;
+    }
+
+    .profile-pic p {
+        font-size: 16px;
+    }
+
+    .current-price p {
+        font-size: 16px;
+    }
+
+    .price-detail p {
+        font-size: 24px;
+    }
+
+    .created-detail p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .created-detail {
+        padding-top: 20px;
+    }
+
+    .createdBy-block h3 {
+        font-size: 24px;
+    }
+
+    .audio {
+        padding-top: 50px;
+    }
+
+    .bid-tab {
+        padding: 33px 10px 25px 10px;
+    }
+
+    .history-tab .nav-tabs .nav-link {
+        font-size: 18px;
+    }
+
+    .profile-content h4 {
+        font-size: 18px;
+    }
+
+    .profile-content p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .time p {
+        font-size: 12px;
+    }
+
+    .history-tab .nav-tabs {
+
+        max-width: 100%;
+    }
+
+    .buy-nowBtn .buy-now {
+        font-size: 16px;
+    }
+
+    .place-bidBtn .place-bid {
+        font-size: 16px;
+    }
+
+    .history-bid ul {
+        margin-top: 10px;
+    }
+
+    .price {
+        padding: 22px 15px;
+    }
+
+    .history-bid ul {
+        padding-right: 0;
+    }
+
+    .history-profile {
+        gap: 21px;
+    }
+
+    .history-listing {
+        padding: 20px 10px 20px 0;
+    }
+
+    .social-icons {
+        margin-top: 30px;
+    }
+
+    .profile-inner {
+        flex: 1;
+    }
+
+    .dropDowninner_block {
+        width: 49%;
+    }
+
+    .banner-pic {
+        margin-top: -63px;
+    }
+
+    .banner-pic img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .banner-itemImage img {
+        min-height: 150px;
+    }
+
+    .titleItemdetails {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .line-detailsblock {
+        margin-top: 40px;
+    }
+
+    .line-detailElements {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .boxfirst {
+        max-width: 100%;
+    }
+
+    .line-itemlayer h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .line-itemlayer p {
+        font-size: 20px;
+    }
+
+    .item-detailsblock {
+        padding: 40px 0;
+    }
+
+    .boxfirst {
+        justify-content: center;
+    }
+
+    section.banner-layer {
+        padding-top: 30px;
+    }
+
+    .item-price-blockouter {
+        gap: 30px;
+    }
+
+    .multiple-drops {
+        padding-bottom: 30px;
+    }
+
+    .ringersGlow::after {
+        display: none;
+    }
+
+    .createdbyGlow::after {
+        display: none;
+    }
+
+    .createdbyGlow {
+        position: relative;
+        padding-bottom: 0px;
+    }
+
+    .item-blockimage img {
+        height: 300px;
+    }
+
+  
+    /****Error page***/
+    .center {
+        height: 100%;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .error-block {
+        text-align: center;
+    }
+
+    .robot {
+        justify-content: center;
+    }
+
+    .error-page {
+        padding: 40px 0;
+    }
+
+    .error-content h6 {
+        font-size: 30px;
+    }
+
+    .error-msg p {
+        font-size: 16px;
+    }
+
+    .error-msg {
+        margin-top: 20px;
+    }
+
+    .back-homeBtn {
+        margin-top: 40px;
+    }
+
+    .error-content {
+        padding-top: 0px;
+    }
+
+    .robot img {
+        max-height: 300px;
+    }
+
+    .error-image img {
+        max-width: 200px;
+    }
+
+    /**** faq's page***/
+    .faq-tab {
+        margin: 20px 0;
+    }
+
+    .tab-gap {
+        flex-direction: column;
+    }
+
+    .faq-tab .nav-pills .nav-link {
+        max-width: 50%;
+        padding: 10px;
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+
+    .faq-tab .flex-column {
+        flex-direction: row !important;
+    }
+
+    .faq-tab .nav-pills .nav-link::after {
+        display: none;
+    }
+
+    .faq-tab .tab-content {
+        padding: 15px;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .tab-one h3 {
+        font-size: 20px;
+    }
+
+    .tab-one p {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .mt-64 {
+        margin-top: 15px;
+    }
+
+    .faq-head p {
+        margin-top: 15px;
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    .help-banner {
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .faq-section {
+        padding-top: 40px;
+    }
+
+    .help-content {
+        text-align: center;
+    }
+
+    .help-content h6 {
+        font-size: 27px;
+        margin-top: 27px;
+    }
+
+    .help-content p {
+        margin-top: 15px;
+    }
+
+    .faq-details::after {
+        display: none;
+    }
+
+    .socialMedia {
+        padding-top: 25px;
+    }
+
+    /*** Footer ***/
+    .community .footer-socialIcons {
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 30px 0 10px 0;
+    }
+
+    /**** Header responsive Ruby ***/
+    .user-auth {
+        display: none;
+    }
+
+    .logo img {
+        max-width: 110px;
+    }
+
+    .header {
+        padding: 15px 0px;
+    }
+
+    /***Banner header **/
+    .banner-section {
+        margin-top: 0px;
+    }
+
+    .banner-header {
+        gap: 22px;
+    }
+
+    .marketplace-head h1 {
+        font-size: 41px;
+        max-width: 280px;
+    }
+
+    .drops::after {
+        height: 22px;
+        bottom: 2px;
+        left: 0;
+    }
+
+    .center-div {
+        /* height: 100%; */
+        height: 844px;
+        padding: 36px;
+    }
+
+    .browse {
+        display: none;
+    }
+
+    .marketplace-head p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .marketplace-image {
+        margin-top: 42px;
+    }
+
+    .collection-head h1 {
+        line-height: 56px;
+    }
+
+    .collecttions::after {
+        height: 23px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .dropping {
+        display: block;
+    }
+
+    .artist::after {
+        height: 23px;
+        bottom: 1px;
+        left: 0px;
+    }
+
+    .center-artist {
+        padding: 36px;
+    }
+
+    .bitcoin-img {
+        display: none;
+    }
+
+    .slide-three::after {
+        display: none;
+    }
+
+    .unbox {
+        height: auto;
+    }
+
+    .reponsive-blockBtnouter {
+        display: block;
+        position: absolute;
+        bottom: 69px;
+        padding: 0 36px;
+    }
+
+    .reponsive-blockBtnouterwrap {
+        position: relative;
+        bottom: 60px;
+        display: block;
+        padding: 0 36px;
+
+    }
+
+    .slide-one {
+        height: 890px;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 370px;
+        object-fit: contain;
+    }
+    .bitcoin-responsive {
+        height: 844px;
+    }
+    .banner-bg{
+        padding: 7px 36px !important;
+    }
+    .center-div {      
+        align-items: baseline;
+    }
+
+
+}
+
+@media screen and (max-width: 575px) {
+    .price-detail p {
+        font-size: 18px;
+    }
+
+    .btn-block {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .history-listing {
+        gap: 10px;
+    }
+
+    .profile-content p {
+        font-size: 12px;
+    }
+
+    .social-icons ul {
+        justify-content: center;
+    }
+
+    .social-icons ul li a i {
+        font-size: 18px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .social-icons ul li a svg {
+        width: 45px;
+        height: 45px;
+    }
+    .line-detailElements {
+        padding: 10px;
+    }
+
+    .line-itemlayer h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .line-itemlayer p {
+        font-size: 16px;
+    }
+
+    .boxfirst {
+        justify-content: center;
+    }
+
+    .boxsecond {
+        max-width: 100%;
+        width: 100%;
+        border: none;
+    }
+
+    .boxthird {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .back-homeBtn .back-home {
+        padding: 12px 28px;
+        font-size: 14px;
+    }
+
+    .dropDowninner_block select {
+        padding: 10px 20px;
+        font-size: 14px;
+
+    }
+
+    .item-detailsblock {
+        padding: 20px 0;
+    }
+
+    .buy-bidBtn a {
+        font-size: 14px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .banner-social {
+        justify-content: center;
+    }
+
+    .error-content h6 {
+        font-size: 22px;
+    }
+
+    .error-msg {
+        margin-top: 10px;
+    }
+
+    .faq-head h3 {
+        font-size: 22px;
+    }
+
+    .help-content p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .help-content h6 {
+        font-size: 22px;
+    }
+
+    .profile-pic {
+        padding-top: 20px;
+    }
+
+    .profile-block {
+        gap: 10px;
+    }
+
+    .buy-nowBtn .buy-now {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .place-bidBtn .place-bid {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn-block {
+        margin-top: 10px;
+    }
+
+    .ringersBy-section {
+        padding: 30px 0;
+    }
+
+    .createdBy-block h3 {
+        font-size: 22px;
+    }
+
+    .created-detail {
+        padding-top: 10px;
+    }
+
+}
